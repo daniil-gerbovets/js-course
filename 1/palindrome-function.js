@@ -4,8 +4,8 @@ const readline = require('readline').createInterface({
   });
 
 //Create function for check if provided is palindrome
-function isPalidrome(str){
-    console.log('Working');
+function isPalindrome(str){
+    str = str.toLowerCase();
     if (str==reverseString(str))
     return true
     else return false;
@@ -19,5 +19,5 @@ function reverseString(str){
 
 readline.question('Write the palindrome: ', input_check => {
   readline.close();
-  console.log(isPalidrome(input_check));
+  console.log(isPalindrome(input_check));
 });
