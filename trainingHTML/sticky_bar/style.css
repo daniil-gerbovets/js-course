@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.header,.footer {
+    height: 20%;
+    background-color: aquamarine;
+}
+
+.content {
+    background-color: rosybrown;
+    height: 1000px;
+}
+
+.navbar {
+    background-color:lightblue;
+    top: 0;
+    position:sticky;
+}
