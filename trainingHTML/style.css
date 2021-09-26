@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.header,.footer {
+    height: 10%;
+    background-color: aquamarine;
+}
+
+.content {
+    background-color: rosybrown;
+    height: 1000px;
+    overflow: auto;
+}
+
+.content_filling {
+    height: 2000px;
+}
