@@ -13,12 +13,33 @@ function ArrCut(arr_input){
 ArrayGen(ArrCut); */
 
 
-//Closure
+/* //Closure
 
 function variable(){
     let m = 255;
-    
-
+    return function() {
+        m++;
+        console.log(m);
+    }
 }
 
+let test = variable();
+
+test();
+test(); */
+
+
+/* 
 //Promises
+let a = 98;
+console.log(a);
+
+let b = new Promise (function(resolve, reject){
+    setTimeout(()=>{
+        resolve(a=99);
+    }, 2000);
+});
+
+b.then(function() {
+    console.log(a);
+}) */
